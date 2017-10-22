@@ -25,7 +25,7 @@ SECRET_KEY = 'z5$uqo-d8cbz7f@)!c(f)d8jn+u@u1kprj1p-)6=sj+8r%$&ke'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["www.littleprincess.xin","www.appleofmyeye.cn"]
 
 
 # Application definition
