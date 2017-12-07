@@ -1,0 +1,3 @@
+Fri, 22 Apr 2016 15:11:46 Logger.py[line:15] DEBUG This is debug message
+Fri, 22 Apr 2016 15:11:46 Logger.py[line:16] INFO This is info message
+Fri, 22 Apr 2016 15:11:46 Logger.py[line:17] WARNING This is warning message

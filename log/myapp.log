@@ -1,0 +1,6 @@
+Tue, 22 Mar 2016 09:49:15 Log.py[line:37] DEBUG This is debug message
+Tue, 22 Mar 2016 09:49:15 Log.py[line:38] INFO This is info message
+Tue, 22 Mar 2016 09:49:15 Log.py[line:39] WARNING This is warning message
+Tue, 22 Mar 2016 09:49:15 Log.py[line:40] ERROR This is error message
+Tue, 22 Mar 2016 09:49:15 Log.py[line:41] CRITICAL This is critical message
+root        : CRITICAL This is critical message
