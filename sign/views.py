@@ -11,6 +11,14 @@ from sign.models import Event, Guest
 def index(request):
     return render(request, "index.html")
 
+def news(request):
+    return render(request, "news.html")
+
+def aboutus(request):
+    return render(request, "aboutus.html")
+
+def culture(request):
+    return render(request, "culture.html")
 
 def login_action(request):
     if request.method == 'POST':
