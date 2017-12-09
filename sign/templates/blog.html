@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+{% for post in blog_list %}
+
+
+<!-- Post -->
+<article class="post">
+    <header>
+        <div class="title">
+            <h2><a href="./single.html">{{ post.title }}</a></h2>
+            <p>{{ post.timestamp | date:"1,F jS"}}</p>
+        </div>
+        <div class="meta">
+            <time class="published" datetime="2015-11-01">November 1, 2015</time>
+            <a href="#" class="author"><span class="name">Jane Doe</span><img src="static/images/avatar.jpg"
+                                                                              alt=""/></a>
+        </div>
+    </header>
+    <a href="#" class="image featured"><img src="static/images/pic01.jpg" alt=""/></a>
+    <p>{{ post.body }}</p>
+    <footer>
+        <ul class="actions">
+            <li><a href="#" class="button big">阅读全文</a></li>
+        </ul>
+        <ul class="stats">
+            <li><a href="#">General</a></li>
+            <li><a href="#" class="icon fa-heart">28</a></li>
+            <li><a href="#" class="icon fa-comment">128</a></li>
+        </ul>
+    </footer>
+</article>
+{% endfor %}
+{% endblock %}

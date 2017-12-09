@@ -22,6 +22,8 @@ urlpatterns = [
     url(r'^$', views.index),
     url(r'^index/$', views.index),
     url(r'^index.html', views.index),
+    url(r'^wx/$', views.wx),
+    url(r'^blog.html', views.blog),
     url(r'^news.html', views.news),
     url(r'^aboutus.html', views.aboutus),
     url(r'^culture.html', views.culture),

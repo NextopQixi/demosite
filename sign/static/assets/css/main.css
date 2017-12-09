@@ -1717,9 +1717,9 @@
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.6em;
 		font-weight: 800;
-		height: 4.8125em;
+		height: 2.8125em;
 		letter-spacing: 0.25em;
-		line-height: 4.8125em;
+		line-height: 2.8125em;
 		padding: 0 2.5em;
 		text-align: center;
 		text-decoration: none;
@@ -3092,7 +3092,7 @@
 
 			#header form input {
 				display: inline-block;
-				height: 2.5em;
+				/* height: 2.5em; */
 				position: relative;
 				top: -2px;
 				vertical-align: middle;
